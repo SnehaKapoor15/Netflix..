@@ -1,0 +1,99 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #141414;
+  color: #fff;
+}
+
+nav ul {
+  display: flex;
+}
+
+nav li {
+  margin-right: 20px;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.logo img {
+  height: 40px;
+}
+
+.login a {
+  display: inline-block;
+  padding: 8px 16px;
+  background-color: #e50914;
+  color: #fff;
+  border-radius: 3px;
+  text-decoration: none;
+}
+
+.login a:hover {
+  background-color: #d50a13;
+}
+
+main {
+  background-image: url(https://via.placeholder.com/1200x600);
+  background-size: cover;
+  background-position: center;
+  height: calc(100vh - 100px);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 0 20px;
+}
+
+h1 {
+  font-size: 48px;
+  margin-bottom: 20px;
+  color: #fff;
+}
+
+h2 {
+  font-size: 24px;
+  margin-bottom: 30px;
+  color: #fff;
+}
+
+form input[type="text"] {
+  padding: 12px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 3px;
+  margin-right: 10px;
+}
+
+form button {
+  background-color: #e50914;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  font-size: 16px;
+  padding: 12px 25px;
+  cursor: pointer;
+}
+
+form button:hover {
+  background-color: #d50a13;
+}
+footer {
+  padding: 20px;
+  background-color: #141414
